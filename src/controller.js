@@ -1,5 +1,5 @@
 function Controller() {
-  this.initialiseSea;
+  this.initialiseSea();
 }
 
 Controller.prototype.initialiseSea = function initialiseSea() {
