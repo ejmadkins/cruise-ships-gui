@@ -26,8 +26,8 @@
     this.currentPort.addShip(this);
   };
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = Port;
+    module.exports = CruiseShip;
   } else {
-    window.Port = Port;
+    window.CruiseShip = CruiseShip;
   }
 })();

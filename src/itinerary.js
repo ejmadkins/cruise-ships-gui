@@ -4,8 +4,8 @@
   }
 
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = Port;
+    module.exports = Itinerary;
   } else {
-    window.Port = Port;
+    window.Itinerary = Itinerary;
   }
 })();
